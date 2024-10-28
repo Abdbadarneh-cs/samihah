@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NumberGenerator
+
+public class NumberGenerator : MonoBehaviour 
 {
-    public static void Main()
+    public void Start() 
     {
         Random random = new Random();
         int number;
@@ -16,7 +17,8 @@ public class NumberGenerator
             {
                 continue; 
             }
-             Debug.Log(number);
+            Debug.Log(number); 
+
             if (number == 15)
             {
                 break; 
