@@ -16,7 +16,7 @@ public class NumberGenerator
             {
                 continue; 
             }
-            Console.WriteLine(number);
+             Debug.Log(number);
             if (number == 15)
             {
                 break; 
